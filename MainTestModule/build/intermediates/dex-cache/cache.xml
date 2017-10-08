@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ash1sh/Android_Projects/ScreenSearch/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a7400753e593a3f39474715ed2aa19124eb0a030">
+        <dex dex="/home/ash1sh/Android_Projects/ScreenSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5a0fde51a71df39b0176d7eb0a04bebf94449d68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ash1sh/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/ash1sh/Android_Projects/ScreenSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_f6ac03c9b4f8bbdfed649822e648ecbed2ab93ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ash1sh/Android_Projects/ScreenSearch/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/ash1sh/Android_Projects/ScreenSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_032ffabf2b54789825308685237281b322d89269/classes.dex" />
+    </item>
+
+</items>

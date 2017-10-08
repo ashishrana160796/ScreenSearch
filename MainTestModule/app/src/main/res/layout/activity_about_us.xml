@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#efefff"
+tools:context="com.example.ash1sh.screensearch.activity.AboutUs">
+
+<TextView
+    android:id="@+id/textView32"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:color="#000"
+    android:text="ashishrana160796/PixelPlay"
+    android:textColor="#444"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.504"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.865" />
+
+<TextView
+    android:id="@+id/textView31"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:color="#000"
+    android:text="https://github.com/"
+    android:textColor="#444"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.821" />
+
+<TextView
+    android:id="@+id/textView29"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:color="#000"
+    android:text="Report Issues "
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.777"
+    app:layout_constraintHorizontal_bias="0.502" />
+
+<TextView
+    android:id="@+id/textView30"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:color="#000"
+    android:text="arana_be15@thapar.edu"
+    android:textColor="#444"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.605" />
+
+<TextView
+    android:id="@+id/textView16"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:color="#000"
+    android:text="Ashish Rana"
+    android:textColor="#444"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.502"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.379" />
+
+<TextView
+    android:id="@+id/textView20"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Contact"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.561"
+    app:layout_constraintHorizontal_bias="0.501" />
+
+<TextView
+    android:id="@+id/textView28"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Developer"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.303" />
+
+<de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_image"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:src="@drawable/assetprofile"
+    app:civ_border_color="#FF000000"
+    app:civ_border_width="2dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.126" />
+
+<TextView
+    android:id="@+id/textView34"
+    android:layout_width="337dp"
+    android:layout_height="44dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:layout_marginTop="8dp"
+    android:text='"This Is An Application For All The Movie Freaks Out There."'
+    android:textAlignment="center"
+    android:textSize="18sp"
+    android:textStyle="italic"
+    app:layout_constraintBottom_toTopOf="@+id/textView20"
+    app:layout_constraintHorizontal_bias="0.484"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView16"
+    app:layout_constraintVertical_bias="0.0"
+    tools:layout_editor_absoluteX="24dp"
+    tools:layout_editor_absoluteY="289dp" />
+
+<TextView
+    android:id="@+id/textView33"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:fontFamily="sans-serif-condensed"
+    android:text="AboutUs "
+    android:textColor="#444"
+    android:textSize="35sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toTopOf="@+id/profile_image"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.596" />
+
+<ImageButton
+    android:id="@+id/imageButton"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/gamilicon"
+    android:onClick="onGmailClick"
+    app:layout_constraintBottom_toTopOf="@+id/textView29"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView30"
+    app:layout_constraintVertical_bias="0.0" />
+
+<ImageButton
+    android:id="@+id/imageButton2"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/media"
+    android:onClick="onGitClick"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintHorizontal_bias="0.501"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView32"
+    app:layout_constraintVertical_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>

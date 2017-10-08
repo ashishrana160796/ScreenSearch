@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:id="@+id/MovieGroup"
+           android:visible="true"
+        >
+
+    <item android:id = "@+id/Popular"
+        android:title="Popular"
+        > </item>
+
+    <item android:id = "@+id/TopRated"
+        android:title="Top Rated"
+        > </item>
+
+        <item
+            android:id="@+id/Upcoming"
+            android:title="Upcoming"></item>
+
+
+    <item android:id = "@+id/NowPlaying"
+        android:title="Now Playing"
+        > </item>
+
+    </group>
+
+    <group android:id="@+id/InfoGroup"
+        android:visible="true"
+        >
+
+
+    <item android:id = "@+id/WatchList"
+        android:title="Watch List"
+        > </item>
+
+
+    <item android:id = "@+id/AboutUs"
+          android:title="About Us"
+        > </item>
+
+</group>
+
+</menu>
